@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 SEP 2018 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 SEP 2018 14:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -329,63 +329,71 @@ Underfull \hbox (badness 1043) in paragraph at lines 50--51
 OT1/cmr/m/n/10 , a
  []
 
-[2] <1-050-1_327_grid.pdf, id=19, 578.16pt x 578.16pt>
+[2] [3]
+
+LaTeX Warning: Reference `tab:results' on page 4 undefined on input line 113.
+
+<1-050-1_327_grid.pdf, id=29, 578.16pt x 578.16pt>
 File: 1-050-1_327_grid.pdf Graphic file (type pdf)
-
-<use 1-050-1_327_grid.pdf>
-Package pdftex.def Info: 1-050-1_327_grid.pdf used on input line 112.
+ <use 1-050-1_327_grid.pdf>
+Package pdftex.def Info: 1-050-1_327_grid.pdf used on input line 124.
 (pdftex.def)             Requested size: 245.26653pt x 245.2604pt.
- <1-250-1_293_grid.pdf, id=20, 578.16pt x 578.16pt>
+
+<1-250-1_293_grid.pdf, id=30, 578.16pt x 578.16pt>
 File: 1-250-1_293_grid.pdf Graphic file (type pdf)
-
-<use 1-250-1_293_grid.pdf>
-Package pdftex.def Info: 1-250-1_293_grid.pdf used on input line 119.
+ <use 1-250-1_293_grid.pdf>
+Package pdftex.def Info: 1-250-1_293_grid.pdf used on input line 131.
 (pdftex.def)             Requested size: 245.26653pt x 245.2604pt.
- <M1Q1Y1-5_T.pdf, id=21, 764.50854pt x 316.37729pt>
+
+<M1Q1Y1-5_T.pdf, id=31, 764.50854pt x 316.37729pt>
 File: M1Q1Y1-5_T.pdf Graphic file (type pdf)
-
-<use M1Q1Y1-5_T.pdf>
-Package pdftex.def Info: M1Q1Y1-5_T.pdf used on input line 126.
+ <use M1Q1Y1-5_T.pdf>
+Package pdftex.def Info: M1Q1Y1-5_T.pdf used on input line 138.
 (pdftex.def)             Requested size: 513.11743pt x 212.3434pt.
- [3] [4 <./1-050-1_327_grid.pdf> <./1-250-1_293_grid.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./1-250-1_293_grid.pdf): PDF
- inclusion: multiple pdfs with page group included in a single page
->]
 No file report.bbl.
-[5 <./M1Q1Y1-5_T.pdf>] (./report.aux) ) 
+[4 <./1-050-1_327_grid.pdf>] [5 <./1-250-1_293_grid.pdf> <./M1Q1Y1-5_T.pdf>]
+(./report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
 Here is how much of TeX's memory you used:
- 4417 strings out of 493089
- 59333 string characters out of 6134842
- 178459 words of memory out of 5000000
- 7833 multiletter control sequences out of 15000+600000
- 13512 words of font info for 56 fonts, out of 8000000 for 9000
+ 4421 strings out of 493089
+ 59364 string characters out of 6134842
+ 143162 words of memory out of 5000000
+ 7836 multiletter control sequences out of 15000+600000
+ 13820 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,29p,1493b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pf
-b>
-Output written on report.pdf (5 pages, 642267 bytes).
+ 39i,9n,29p,1493b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on report.pdf (5 pages, 651857 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 143 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

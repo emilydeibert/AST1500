@@ -77,6 +77,9 @@ In order to study the interior evolution and processes that lead to plate tecton
 \multirow{2}{*}{50} & $5.2 \times 10^{-12}$ \\
  & $10.4 \times 10^{-12}$ \\
 \hline
+\multirow{2}{*}{75} & $5.2 \times 10^{-12}$ \\
+ & $10.4 \times 10^{-12}$ \\
+\hline
 \multirow{2}{*}{100} & $5.2 \times 10^{-12}$ \\
  & $10.4 \times 10^{-12}$ \\
 \hline
@@ -87,7 +90,7 @@ In order to study the interior evolution and processes that lead to plate tecton
  & $10.4 \times 10^{-12}$ \\
 \hline
 \multirow{2}{*}{250} & $5.2 \times 10^{-12}$ \\
- & $10.4t \times 10^{-12}$ \\
+ & $10.4 \times 10^{-12}$ \\
 \toprule
 \label{tab:grids}
 \end{tabular}
@@ -104,9 +107,18 @@ As is the case for the planet Earth, plate tectonics is a regime of tectonic act
 In terms of habitability, plate tectonics may be extremely important in maintaining an exoplanet's atmosphere through volcanic outgassing, as well as maintaining an exoplanetary magnetic field (\citealt{Korenaga12}). Although recent evidence suggests that plate tectonics may not be strictly necessary for habitability (\citealt{Foley18}), it is nevertheless of considerable importance to understand this phenomena in greater detail, especially in an exoplanetary context.
 
 \subsection{Episodic Tectonics}\label{subsec:et}
-Episodic tectonics refers to a regime in which a body experience plate tectonics followed by long periods of inactivity on the surface. Such a regime is hypothesized to be occurring on Venus (\citealt{Turcotte93}). 
+Episodic tectonics refers to a regime in which a body experience plate tectonics followed by long periods of inactivity on the surface. Such a regime is hypothesized to be occurring on Venus (\citealt{Turcotte93}). Episodic tectonics may also represent a transitional period between a stagnant lid regime and plate tectonics, and may have occurred on the Earth (\citealt{Neill16}).
 
 \section{Results} \label{sec:results}
+In this section, we present the results of running the model grid of exoplanets described in Table \ref{tab:grids} for 10 Gyr each. For each model, we classify the system as experiencing either a stagnant lid, episodic tectonics, or plate tectonics. These findings are summarized in Fig. \ref{fig:results} and Table \ref{tab:results}. We find that while a yield stress as low as 50 MPa allows for plate tectonics at both values of $Q$, a higher yield stress results in a stagnant lid, though often with an active exoplanetary interior.
+
+%\begin{figure}
+%\centering
+%\includegraphics[width=\linewidth]{PT_SL.pdf}
+%\caption{A summary of the results of running our model grid of simulations (Table \ref{tab:grids}). The magenta circles represent models in which plate tectonics occur, while the cyan squares represent models in which a stagnant lid is observed.}
+%\label{fig:results}
+%\end{figure}
+
 \begin{figure}
 \centering
 \includegraphics[width=\linewidth]{1-050-1_327_grid.pdf}
@@ -145,7 +157,7 @@ Episodic tectonics refers to a regime in which a body experience plate tectonics
 \bibitem[Louie et al.(2018)]{Louie18} Louie, D. R., Deming, D., Albert, L., et al. 2018, PASP, 130, 440
 \bibitem[Makarov et al.(2018)]{Makarov18} Makarov, V. V., Berghea, C. T., \& Efroimsky, M. 2018, \apj, 857, 142
 \bibitem[Moresi \& Solomatov(1998)]{Moresi98} Moresi, L. \& Solomatov, V. 1998, \textit{Geophys. J. Int.}, 133(3), 669
-\bibitem[Petrovich et al.(2018)]{Petrovich18} Petrovich, C., Deibert, E., \& Wu, Y. 2018, arXiv preprint
+\bibitem[O'Neill et al.(2016)]{Neill16} O'Neill, C., Lenardic, A., Weller, M. et al. 2016, Physics of the Earth and Planetary Interiors, 255, 80
 \bibitem[Rowley et al.(2016)]{Rowley16} Rowley, D. B., Forte, A. M., Rowan, C. J., et al. 2016, Science Advances, 2, 12
 \bibitem[Stern et al.(2018)]{Stern18} Stern, R. J., Gerya, T., \& Tackley, P. J 2018, \textit{Geoscience Frontiers}, 9, 103
 \bibitem[Tackley(2000)]{Tackley00} Tackley, P. J. 2000, \textit{Geochem., Geophys., Geosys.}, 1, 1
