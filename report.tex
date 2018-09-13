@@ -129,12 +129,12 @@ Episodic tectonics refers to a regime in which a body experience plate tectonics
 \section{Results} \label{sec:results}
 In this section, we present the results of running the model grid of exoplanets described in Table \ref{tab:grids} for 10 Gyr each. For each model, we classify the system as experiencing either a stagnant lid, episodic tectonics, or plate tectonics. These findings are summarized in Fig. \ref{fig:results} and Table \ref{tab:results}. We find that while a yield stress as low as 50 MPa allows for plate tectonics at both values of $Q$, a higher yield stress results in a stagnant lid, though often with an active exoplanetary interior.
 
-%\begin{figure}
-%\centering
-%\includegraphics[width=\linewidth]{PT_SL.pdf}
-%\caption{A summary of the results of running our model grid of simulations (Table \ref{tab:grids}). The magenta circles represent models in which plate tectonics occur, while the cyan squares represent models in which a stagnant lid is observed.}
-%\label{fig:results}
-%\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{PT_SL.pdf}
+\caption{A summary of the results of running our model grid of simulations (Table \ref{tab:grids}). The magenta circles represent models in which plate tectonics occur, while the cyan squares represent models in which a stagnant lid is observed.}
+\label{fig:results}
+\end{figure}
 
 \begin{figure*}
 \centering
@@ -143,6 +143,35 @@ In this section, we present the results of running the model grid of exoplanets 
 \label{fig:M1Q1Y1-5_temperature}
 \end{figure*}
 
+\begin{table*}
+\centering
+\caption{A summary of results obtained from running our grid of models.}
+\begin{tabular}{c  c  c  c}
+\toprule
+\textbf{Yield Stress} (MPa) & \textbf{Internal Heating} (W/kg) & \textbf{Tectonic Regime} & \textbf{Time of Plate Tectonics Onset} (Gyr) \\
+\hline
+\multirow{2}{*}{50} & $5.2 \times 10^{-12}$ & Plate Tectonics & 4.6  \\
+ & $10.4 \times 10^{-12}$ & Plate Tectonics & 1.1  \\
+\hline
+\multirow{2}{*}{75} & $5.2 \times 10^{-12}$ & Plate Tectonics & 6.3  \\
+ & $10.4 \times 10^{-12}$ &  &  \\
+\hline
+\multirow{2}{*}{100} & $5.2 \times 10^{-12}$ & Stagnant Lid & N/A \\
+ & $10.4 \times 10^{-12}$ & Stagnant Lid & N/A \\
+\hline
+\multirow{2}{*}{150} & $5.2 \times 10^{-12}$ & Stagnant Lid & N/A \\
+ & $10.4 \times 10^{-12}$ & Stagnant Lid & N/A \\
+\hline
+\multirow{2}{*}{200} & $5.2 \times 10^{-12}$ & Stagnant Lid & N/A \\
+ & $10.4 \times 10^{-12}$ & Stagnant Lid & N/A \\
+\hline
+\multirow{2}{*}{250} & $5.2 \times 10^{-12}$ & Stagnant Lid & N/A \\
+ & $10.4 \times 10^{-12}$ & Stagnant Lid & N/A \\
+\toprule
+\label{tab:results}
+\end{tabular}
+\end{table*}
+
 \section{Discussion} \label{sec:discussion}
 As expected, we find that low values of the yield stress allow for an exoplanet to experience plate tectonics. In particular, while a yield stress of 75 MPa does allow for the eventual onset of plate tectonics, a model exoplanet with a yield stress of 100 MPa or higher is seen to maintain a stagnant lid over 10 Gyr of evolution for both values of the internal heating rate used in this study.
 
@@ -150,7 +179,10 @@ We can use these results to begin characterizing a transition between plate tect
 
 In the righthand panels of Fig. \ref{fig:M1Q1Y15}, we present an example of an exoplanet with a high (250 MPa) yield stress for which a stagnant lid is observed. As can be seen particularly in panel (b), there is no mixing of material between the outer and inner layers of the exoplanet, and panel (a) shows that a high temperature is maintained throughout the exoplanetary interior. Again, we show the evolution of the exoplanet's mean temperature over time in Fig. \ref{fig:M1Q1Y1-5_temperature}. The initial $\sim$ 4.6 Gyr of thermal evolution for this exoplanet match those of the 50 MPa yield stress exoplanet. After this, however, we see that the 250 MPa yield stress exoplanet continues a steady decrease in temperature over time. 
 
+Similar results are obtained for other exoplanets in the stagnant lid or plate tectonics regimes (see Table \ref{tab:results} for a summary). For exoplanets experiencing plate tectonics, we note that the length of time required before the onset of plate tectonics varies with both the yield stress and the internal heating rate, with higher yield stresses and lower internal heating rates corresponding to the onset of plate tectonics occurring later in the exoplanet's evolution. In particular, we note that a model with a yield stress of 50 MPa and an internal heating rate of 10.4 $\times 10^{-12}$ W/kg begins plate tectonics after $\sim$ 1.1 Gyr, but a model with the same yield stress and half the internal heating rate (5.2 $\times 10^{-12}$ W/kg) takes 4.6 Gyr to begin plate tectonics.
+
 \section{Conclusion} \label{sec:conc}
+In this work, we studied the effects of varying the yield stress and internal heating rate in interior models of terrestrial exoplanets. Using \texttt{StagYY}, a three-dimensional solver of viscous flow equations, we run a grid of model exoplanets for 10 Gyr and analyze the results. We find that a low yield stress leads to plate tectonics for both an Earth value and double the Earth value of the internal heating rate. Furthermore, we observe a boundary between plate tectonics and a stagnant lid tectonic regime occurring between a yield stress of 75-100 MPa. Our work provides an initial investigation into the results obtained from varying parameters that have an effect on plate tectonics in terrestrial exoplanets, and will aid in the eventual creation of a realistic radially-distributed tidal dissipation and interior heating model for exoplanets around M-dwarf stars.
 
 
 \begin{thebibliography}{}
