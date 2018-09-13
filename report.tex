@@ -99,12 +99,29 @@ In order to study the interior evolution and processes that lead to plate tecton
 \section{Tectonic Regimes}\label{sec:regimes}
 One of the primary goals of this work is to better understand the conditions that lead a planet to experience plate tectonics. To this end, we present a brief overview of relevant tectonic regimes that may be produced by our models.
 \subsection{Stagnant Lid}\label{subsec:sl}
-The conditions required for plate tectonics to occur on a rocky body are relatively restrictive, and thus it is more likely that terrestrial planets are in what is known as a ``stagnant lid'' regime, in which the entire lithosphere of the planet exists as a single unbroken plate (\citealt{Stern18}). Planets experiencing a stagnant lid may be either tectonically active or inactive in the interior. In the Solar System, for example, both Venus and Mars are active bodies with a stagnant lid tectonic style (\citealt{Stern18}). This is the dominant mode of tectonic activity for terrestrial exoplanets; however, the exact conditions required for the transition between stagnant lid and plate tectonics, as well as what boundary conditions may exist between these two regimes, are poorly understood. Both the yield stress and radioactive internal heating $Q$ likely play an important role in this transition, and are thus of particular interest for our analysis.
+The conditions required for plate tectonics to occur on a rocky body are relatively restrictive, and thus it is more likely that terrestrial planets are in what is known as a ``stagnant lid'' regime, in which the entire lithosphere of the planet exists as a single unbroken plate (\citealt{Stern18}). Planets experiencing a stagnant lid may be either tectonically active or inactive in the interior. In the Solar System, for example, both Venus and Mars are active bodies with a stagnant lid tectonic style (\citealt{Stern18}). This is the dominant mode of tectonic activity for terrestrial exoplanets; however, the exact conditions required for the transition between stagnant lid and plate tectonics, as well as what boundary conditions may exist between these two regimes, are poorly understood. Both the yield stress and radioactive internal heating $Q$ likely play an important role in this transition, and are thus of particular interest for our analysis. The right side of Fig. \ref{fig:M1Q1Y15} provides an example of one model exoplanet for which a stagnant lid is observed throughout the evolutionary period of 10 Gyr.
 
 \subsection{Plate Tectonics}
 As is the case for the planet Earth, plate tectonics is a regime of tectonic activity in which fragments of the (exo)planet's lithosphere (``plates'') sink (or ``subduct''), leading to an upward motion of asthenospheric material at plate boundaries, as well as the constant creation of new crustal material (\citealt{Stern18}). Based on the Solar System, plate tectonics is a relatively rare tectonic regime: out of the 26 largest rocky bodies known in the Solar System, the Earth is the only observed to experience plate tectonics (\citealt{Stern18}). Note that while both active and inactive bodies may experience a stagnant lid (see Section \ref{subsec:sl}), only active bodies can experience plate tectonics. Plate tectonics also requires interior convection, as well as a thick lithospheric layer strong enough to stay solid during subduction but weak enough to be broken into more than a single plate. Beyond this, however, relatively little is known about the requirements necessary for plate tectonics to occur.
 
 In terms of habitability, plate tectonics may be extremely important in maintaining an exoplanet's atmosphere through volcanic outgassing, as well as maintaining an exoplanetary magnetic field (\citealt{Korenaga12}). Although recent evidence suggests that plate tectonics may not be strictly necessary for habitability (\citealt{Foley18}), it is nevertheless of considerable importance to understand this phenomena in greater detail, especially in an exoplanetary context.
+
+The left side of Fig. \ref{fig:M1Q1Y15} shows an example of a model exoplanet for which plate tectonics occur.
+
+\begin{figure*}
+  \centering
+  \begin{tabular}[b]{@{}p{0.48\textwidth}@{}}
+    \includegraphics[width=\linewidth]{1-050-1_327_grid.pdf} \\
+    The end result of running a 1 $M_\odot$ model with a yield stress of 50 Mpa and internal heating rate of 5.2 $\times 10^{-12}$ W/kg for 10 billion years. Panels (a)--(d) represent fields of temperature, composition, viscosity, and melt fraction, respectively. Plate tectonics are evident in this regime, as is clear from the subduction zones visible throughout these figures.
+  \end{tabular}%
+  \quad
+  \begin{tabular}[b]{@{}p{0.48\textwidth}@{}}
+    \includegraphics[width=\linewidth]{1-250-1_293_grid.pdf} \\
+    The end result of running a 1 $M_\odot$ model with a yield stress of 250 Mpa and internal heating rate of 5.2 $\times 10^{-12}$ W/kg for 10 billion years. Panels (a)--(d) are as described in the caption of the lefthand panels of this figure. This model demonstrates a stagnant lid (i.e. single plate) regime.
+  \end{tabular}
+  \caption{The results of 10 Gyr of evolution for 1 $M_\odot$ model exoplanets with 50 MPa (left) and 250 MPa (right) yield stresses, and $Q = 5.2 \times 10^{-12}$ W/kg.}
+  \label{fig:M1Q1Y15}
+\end{figure*}
 
 \subsection{Episodic Tectonics}\label{subsec:et}
 Episodic tectonics refers to a regime in which a body experience plate tectonics followed by long periods of inactivity on the surface. Such a regime is hypothesized to be occurring on Venus (\citealt{Turcotte93}). Episodic tectonics may also represent a transitional period between a stagnant lid regime and plate tectonics, and may have occurred on the Earth (\citealt{Neill16}).
@@ -119,29 +136,22 @@ In this section, we present the results of running the model grid of exoplanets 
 %\label{fig:results}
 %\end{figure}
 
-\begin{figure}
-\centering
-\includegraphics[width=\linewidth]{1-050-1_327_grid.pdf}
-\caption{The end result of running a 1 $M_\odot$ model with a yield stress of 50 Mpa and internal heating rate of 5.2 $\times 10^{-12}$ W/kg for 10 billion years. Panels (a)--(d) represent fields of temperature, composition, viscosity, and melt fraction, respectively. Plate tectonics are evident in this regime, as is clear from the subduction zones visible throughout these figures.}
-\label{fig:M1Q1Y1}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\linewidth]{1-250-1_293_grid.pdf}
-\caption{The end result of running a 1 $M_\odot$ model with a yield stress of 250 Mpa and internal heating rate of 5.2 $\times 10^{-12}$ W/kg for 10 billion years. Panels (a)--(d) are as described in the caption of Fig. \ref{fig:M1Q1Y1}. This model demonstrates a stagnant lid (i.e. single plate) regime.}
-\label{fig:M1Q1Y5}
-\end{figure}
-
 \begin{figure*}
 \centering
 \includegraphics[width=\textwidth]{M1Q1Y1-5_T.pdf}
-\caption{The change in temperature over time of 1  $M_\odot$ models with yield stresses of 50 and 250 Mpa and internal heating rates of 5.2 $\times 10^{-12}$ W/kg. In the model with a yield stress of 50 MPa, the transition to plate tectonics is visible at $\sim$ 4.6 Gyr, where the temperature drops steeply. Following this, the temperature varies slightly but eventually seems to settle into a quasi-steady state. In the 250 MPa yield stress model, the planet is in a stagnant lid regime and the interior slowly cools over time. These results should be compared with the fields displayed in Figs. \ref{fig:M1Q1Y1} and \ref{fig:M1Q1Y5}.}
+\caption{The change in temperature over time of 1  $M_\odot$ models with yield stresses of 50 and 250 Mpa and internal heating rates of 5.2 $\times 10^{-12}$ W/kg. In the model with a yield stress of 50 MPa, the transition to plate tectonics is visible at $\sim$ 4.6 Gyr, where the temperature drops steeply. Following this, the temperature varies slightly but eventually seems to settle into a quasi-steady state. In the 250 MPa yield stress model, the planet is in a stagnant lid regime and the interior slowly cools over time. These results should be compared with the fields displayed in Fig. \ref{fig:M1Q1Y15}.}
 \label{fig:M1Q1Y1-5_temperature}
 \end{figure*}
 
 \section{Discussion} \label{sec:discussion}
+As expected, we find that low values of the yield stress allow for an exoplanet to experience plate tectonics. In particular, while a yield stress of 75 MPa does allow for the eventual onset of plate tectonics, a model exoplanet with a yield stress of 100 MPa or higher is seen to maintain a stagnant lid over 10 Gyr of evolution for both values of the internal heating rate used in this study.
+
+We can use these results to begin characterizing a transition between plate tectonics and stagnant lid in terrestrial exoplanets. An example model of each regime is shown in Fig. \ref{fig:M1Q1Y15}. In the lefthand panels of this figure, we show an example of an exoplanet with a low (50 MPa) yield stress, for which plate tectonics is occurring. This activity begins at roughly 4.6 Gyr of evolution, and continues throughout the remaining 5.4 Gyr. This transition can be seen in Fig. \ref{fig:M1Q1Y1-5_temperature}, in which we plot the change in mean temperature of the exoplanet over its full evolution. At $\sim$ 4.6 Gyr the temperature of the exoplanet drop steeply, representing the moment at which plate tectonics begins. After this, the temperature stabilizes over time and settles into a quasi-steady state, with a variance of only 6 K throughout its final 1 Gyr of evolution.
+
+In the righthand panels of Fig. \ref{fig:M1Q1Y15}, we present an example of an exoplanet with a high (250 MPa) yield stress for which a stagnant lid is observed. As can be seen particularly in panel (b), there is no mixing of material between the outer and inner layers of the exoplanet, and panel (a) shows that a high temperature is maintained throughout the exoplanetary interior. Again, we show the evolution of the exoplanet's mean temperature over time in Fig. \ref{fig:M1Q1Y1-5_temperature}. The initial $\sim$ 4.6 Gyr of thermal evolution for this exoplanet match those of the 50 MPa yield stress exoplanet. After this, however, we see that the 250 MPa yield stress exoplanet continues a steady decrease in temperature over time. 
+
 \section{Conclusion} \label{sec:conc}
+
 
 \begin{thebibliography}{}
 \bibitem[Barclay et al.(2018)]{Barclay18} Barclay, T., Pepper, J., \& Quintana, E. V. 2018, arXiv preprint
